@@ -1,0 +1,199 @@
+.background{
+    background-color:rgb(40, 3, 99);
+    margin: 2px;
+    
+
+}
+.big-box {
+
+    border-radius: 12px;
+    background: linear-gradient(120deg, rgb(114, 3, 148),rgb(101, 86, 236),rgb(240, 8, 135));
+    background-size: 400% 400%;
+    animation: backgroundGradient 10s ease infinite;
+
+  
+}
+@keyframes backgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+
+}
+
+.bar {
+
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    
+}
+
+
+.logo {
+    display:flex;
+    align-self: flex-start;
+    align-items: center;
+    padding:40px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+.button-2 {
+
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+    font-size: 25px;
+    padding: 40px;
+    width: 220px;
+    
+   
+    
+   
+} 
+
+.login-button {
+    border: 2px solid transparent;
+    border-radius: 40px;
+    padding: 7px 17px;
+    display: flex;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+ 
+}
+.login-button:hover {
+    border: 2px solid transparent;
+    color: white;
+    background-color:rgba(241, 239, 239,0.2);
+}
+
+
+.signup-button {
+    display: flex;
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 40px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+   
+}
+
+
+.signup-button:hover {
+    background-color: rgb(233, 13, 148);
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    margin: 1% 30%;
+    padding-left: 4%;
+    flex-wrap: wrap;
+    display: inline-block;
+    position: absolute;
+    top:20%;
+    bottom: 15%;
+    overflow: auto;
+
+}
+.message-box {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:rgb(132, 8, 163);
+    text-align: justify;
+    display: flex;   
+    display: inline-block;
+    flex-wrap: wrap;
+    background-color: white;
+    border:2px solid white;
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin: 2px;
+    
+   
+}
+.message-box:after {
+    content: '';
+	position: absolute;
+	bottom: 30.5%;
+    left: 13.5%;
+    border: 20px solid transparent;
+    border-top-color: white;
+	border-bottom: 0;
+    border-left: 0;
+	margin-left: -10px;
+    margin-bottom: -20px;
+    
+
+}
+.message-img {
+    display: flex;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.landbot-img {
+display: flex;
+position: absolute;
+left: 1%;
+top: 63%;
+
+
+}
+.image {
+    border:2px solid black;
+
+}
+.text {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10px;
+}
+.meow-button {
+    border: 1px solid rgb(240, 5, 5);
+    background-color: rgb(255, 13, 146);
+    color:white;
+    font-size: 17px;
+    padding: 16px;
+    display: inline-block;
+    height: 60px;
+    width: 200px;
+    
+
+}
+
+.meow-button:hover {
+    background-color:rgba(255, 13, 146, 0.7);
+}
+.footer-text {
+    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.color-link {
+    color:white;
+}
+
+.space-footer {
+    height: 17%;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    position: fixed;
+    
+}
+
